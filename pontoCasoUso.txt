@@ -1,0 +1,41 @@
+TPNAA = 1*numAtoresSimples + 2*numAtoresMedio + 3*NumAtoresComplexo
+TPNAA = 1*2 + 2*1= 4
+
+Caxeiro Simples
+Gestor de compras medio
+Gerente simples
+
+TPNACU= 5*numCasoUsoSimples + 10*numCasoUsoMedio + 15*NumCasoUsoComplexo
+TPNACU= 5*13= 65
+
+PCUNA = TPNAA + TPNACU
+PCUNA = 4 + 65= 69
+
+FCA = 1.4 + (-0.03 * Somatório dos Fi*Peso)
+FCA = 1.4 + (-0.03 * -1)= 1.37
+
+F5 motivação 1
+F7 trabalhadores com dedicação parcial -1
+F8 Dificuldade da linguagem de programação -1
+
+FCT = 0.6 + (0.01 * Somatório dos Ti*Peso)
+FCT = 0.6 + (0.01 * 11)= 0.71
+
+
+PCUA = PCUNA * FCT * FCA
+PCUA = 69 * 0.71 * 1.37= 67,12
+
+Pessoa-hora por unidade de PCU (Karner sugere 20)
+• Estimativa em pessoa-hora (PCUA * PH-PCU)
+• Tamanho da equipe (dado de entrada)
+• Estimativa em horas(EPH/TE)
+• Estimativa em meses (EH/160 - considerando 4
+semanas e 40 horas por semana)
+
+PCU= 20
+EPH= PCU* PCUA = 20*67,12= 1342,4
+TE=2
+EH=EPH/TE= 1342,4/2=671,2
+EM=671,2/160= 4,195
+
+ 
